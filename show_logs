@@ -1,0 +1,22 @@
+499  trie_ref -w easy.in
+500  cd Practice/
+501  trie_ref -w easy.in
+502  chmod +x trie_ref
+503  trie_ref -w easy.in
+504  trie_ref -w many_finds.in
+505  make
+506  make stitch
+507  trie_ref -w easy.in
+508  trie_ref -w testcases/easy.in
+509  clear
+510  make pleakley
+511  gdb bin/second_trie
+512  clear
+513  make lilo
+514  make cobra
+515  make lilo
+516  gdb bin/second_trie
+517  clear
+518  make stitch
+519  make nani
+520  history
